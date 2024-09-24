@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/FILMCLAN/MYD.git",
-    "repository": "https://github.com/FILMCLAN/MYD.git",
+    "website": "https://github.com/boymyd6/MYD.git",
+    "repository": "https://github.com/boymyd6/MYD.git",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
