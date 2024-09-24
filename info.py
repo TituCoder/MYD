@@ -56,7 +56,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', False))
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://filmclan1.blogspot.com/p/how-to-open-kingurl-link.html') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/FilmClan') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kingurl.in')
@@ -68,7 +68,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmClan_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmClan')
-TUTORIAL = environ.get('TUTORIAL', 'https://filmclan1.blogspot.com/p/how-to-open-kingurl-link.html')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/FilmClan')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002257154132'))
