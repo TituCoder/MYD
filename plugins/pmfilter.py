@@ -52,7 +52,6 @@ BUTTONS0 = {}
 BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
-REACTIONS = ["🔥", "❤️", "😍", "⚡"]
 # ENABLE_SHORTLINK = ""
 
 def generate_random_alphanumeric():
