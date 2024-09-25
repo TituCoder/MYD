@@ -328,8 +328,8 @@ async def episodes_cb_handler(client: Client, query: CallbackQuery):
             if i+j < len(EPISODES):
                 row.append(
                     InlineKeyboardButton(
-                        text=EPISODES[i+j].title(),
-                        callback_data=f"fe#{EPISODES[i+j].lower()}#{key}"
+                        text=EPISODES[i+1].title(),
+                        callback_data=f"fe#{EPISODES[i+1].lower()}#{key}"
                     )
                 )
         btn.append(row)
@@ -344,7 +344,7 @@ async def episodes_cb_handler(client: Client, query: CallbackQuery):
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"fe#homepage#{key}")])
+    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"fl#homepage#{key}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
  
