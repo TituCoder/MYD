@@ -328,8 +328,8 @@ async def episodes_cb_handler(client: Client, query: CallbackQuery):
             if i+j < len(EPISODES):
                 row.append(
                     InlineKeyboardButton(
-                        text=EPISODES[i+1].title(),
-                        callback_data=f"fl#{EPISODES[i+1].lower()}#{key}"
+                        text=EPISODES[i+j].title(),
+                        callback_data=f"fl#{EPISODES[i+j].lower()}#{key}"
                     )
                 )
         btn.append(row)
