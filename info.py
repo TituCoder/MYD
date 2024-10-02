@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/73f8243e23b6
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'kingurl.in'))
-STREAM_API = (environ.get('STREAM_API', '52fc11e73a9d9da5ed673830b55ca9c252dda348'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://filmclan1.blogspot.com/p/how-to-open-kingurl-link.html'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
+STREAMHTO = (environ.get('STREAMHTO', ''))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6302537270').split()]
