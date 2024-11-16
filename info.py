@@ -26,7 +26,7 @@ NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.j
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/73f8243e23b6005dc9885.jpg'))
-CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
+CODE = (environ.get('CODE', 'https://envs.sh/nOd.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
@@ -59,20 +59,20 @@ VERIFY = bool(environ.get('VERIFY', False))
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Titu_Movie') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'kingurl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '52fc11e73a9d9da5ed673830b55ca9c252dda348')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io/easy_api')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'Af2bIvU8gLRNfl3lvZLII2eChnF3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmClan_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmClan')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/FilmClan')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+5mkRHNxvgT1lNjNl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Titu_Movie')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Titu_Movie')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
+MSG_ALRT = environ.get('MSG_ALRT', 'Hello Bro/bestie 💓')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmClan_Group')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+5mkRHNxvgT1lNjNl')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
