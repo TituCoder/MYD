@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/73f8243e23b6
 CODE = (environ.get('CODE', 'https://envs.sh/nOd.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/FilmClan'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io/easy_api'))
+STREAM_API = (environ.get('STREAM_API', 'Af2bIvU8gLRNfl3lvZLII2eChnF3'))
+STREAMHTO = (environ.get('STREAMHTO', 't.me/Titu_Movie'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
