@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/73f8243e23b6
 CODE = (environ.get('CODE', 'https://envs.sh/nOd.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
+STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io/easy_api'))
+STREAM_API = (environ.get('STREAM_API', 'Af2bIvU8gLRNfl3lvZLII2eChnF3'))
 STREAMHTO = (environ.get('STREAMHTO', 't.me/Titu_Movie'))
 
 # Admins, Channels & Users
@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', True))
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Titu_Movie') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io/easy_api')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'Af2bIvU8gLRNfl3lvZLII2eChnF3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
