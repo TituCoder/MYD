@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', True))
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Titu_Movie') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e280b4143b30959e4b3650915b19c564a15e0d82')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io/easy_api')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'Af2bIvU8gLRNfl3lvZLII2eChnF3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
