@@ -62,7 +62,7 @@ def generate_random_alphanumeric():
   
 def get_shortlink_sync(url):
     try:
-        rget = requests.get(f"https://{STREAM_SITE}api?api={STREAM_API}&url={url}&alias={generate_random_alphanumeric()}")
+        rget = requests.get(f"https://api.shareus.io/easy_api?key=Af2bIvU8gLRNfl3lvZLII2eChnF3&url={url}&alias={generate_random_alphanumeric()}")
         rjson = rget.json()
         if rjson["status"] == "success" or rget.status_code == 200:
             return rjson["shortenedUrl"]
